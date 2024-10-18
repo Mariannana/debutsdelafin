@@ -10,7 +10,7 @@ formInscription.addEventListener("submit", function(event) {
         formData.append("submit", "");
         console.log([...formData.entries()]);
 
-        fetch("http://localhost/debutsdelafin2/serveur/createAccount.php", {
+        fetch("http://localhost/debutsdelafin/serveur/createAccount.php", {
             method: 'POST',
             body: formData
         })
@@ -39,7 +39,7 @@ formConnexion.addEventListener("submit", function(event) {
     formData.append("submit", "");
     console.log([...formData.entries()]);
 
-    fetch("http://localhost/debutsdelafin2/serveur/connection.php", {
+    fetch("http://localhost/debutsdelafin/serveur/connection.php", {
         method: 'POST',
         body: formData
     })

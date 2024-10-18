@@ -11,7 +11,7 @@ session_start();
   <header class="account-header">
     <a href="index.php"><img id="logo-account" src="./assets/logop.png" alt="Debuts de la fin"></a>
     <h2><img src="./assets/akuma.png" alt="Votre image de profil">Goukix</h2>
-    <button class="button"><a href="logout.php">> Se Déconnecter</a></button>
+    <button class="button"><a href="./serveur/logout.php">> Se Déconnecter</a></button>
   </header>
 	<main>
 		<h1 class="title">Mon compte<span class="underline"></span></h1>

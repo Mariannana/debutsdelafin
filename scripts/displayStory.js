@@ -6,7 +6,7 @@ const sectionStory = document.getElementById("sectionStory");
 
 //Recuperation des histoires
 
-fetch("http://localhost/debutsdelafin2/serveur/getStory.php")
+fetch("http://localhost/debutsdelafin/serveur/getStory.php")
   .then((response) => {
     return response.json();
   })
